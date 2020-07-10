@@ -1,6 +1,6 @@
 // MAIN
 body {
-  color: $primary-text-color;
+  color: $primary-color-text;
   background-color: $primary-white-color;
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -23,8 +23,8 @@ img {
     width: $mobile;
   }
 
-  @media screen and (min-width: $tablet) {
-    width: $tablet;
+  @media screen and (min-width: $tablets) {
+    width: $tablets;
   }
 
   @media screen and (min-width: $desktop) {
@@ -68,5 +68,4 @@ img {
     outline-color: transparent;
   }
 }
-
 // end MAIN
